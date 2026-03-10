@@ -42,15 +42,6 @@
         - ansible-tox-py39
 
 - project-template:
-    name: ansible-aws-ci-admin
-    check:
-      jobs:
-        - ansible-tox-linters
-    gate:
-      jobs:
-        - ansible-tox-linters
-
-- project-template:
     name: ansible-collections-community-aws
     check:
       jobs: &ansible-collections-community-aws-jobs
